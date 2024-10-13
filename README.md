@@ -4,6 +4,20 @@ AI scrape reviews
 
 This project is a FastAPI-based web scraper designed to extract and format reviews from a given webpage. Using Selenium for web scraping and OpenAI's API for processing, it outputs structured JSON data.
 
+## Solution Approach
+
+- **Deep Content Extraction:** To access deeply embedded information on webpages, the project utilizes Selenium with the Edge WebDriver. The configuration mimics a typical desktop environment to minimize the risk of IP blocking. Scrolling is implemented to ensure all dynamic content is fully loaded.
+
+- **Content Cleaning:** Irrelevant elements such as headers, footers, scripts, and styles are removed to focus on the essential content. This helps in reducing noise and improving data quality.
+
+- **Content Conversion for LLMs:** Large Language Models (LLMs) perform better with plain text rather than HTML or CSS. Therefore, HTML content is converted to Markdown, which is more readable and easier for LLMs to process.
+
+- **Chunking for Efficiency:** To avoid exceeding the context length limits of the LLM, the Markdown content is divided into chunks of 6000 characters. This ensures that each part is manageable and can be processed efficiently without losing information.
+
+- **Model Utilization:** The `gpt-4o-mini` model is used for extracting structured review data from the text. This choice balances performance and resource constraints, providing accurate extraction while managing computational load.
+
+This approach ensures efficient data extraction and processing, leveraging Selenium for dynamic content handling and LLMs for intelligent information retrieval.
+  
 ## Features
 
 - **Web Scraping**: Utilizes Selenium to fetch and render HTML content from a specified webpage.
