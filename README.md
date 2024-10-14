@@ -38,6 +38,7 @@ This approach ensures efficient data extraction and processing, leveraging Selen
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/sourabhkv/LLM_review_API.git
+cd LLM_review_API
    ```
 
 2. **Install Dependencies**:
@@ -50,7 +51,7 @@ This approach ensures efficient data extraction and processing, leveraging Selen
    - Ensure the path is correctly set in the code (default: `./msedgedriver.exe`).
 
 4. **Configure Environment Variables**:
-   - Set `AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_API_KEY`, `DEPLOYMENT_NAME`, and `API_VERSION` with your OpenAI credentials.
+   - Set `OPENAI_ENDPOINT`, `OPENAI_API_KEY`, `DEPLOYMENT_NAME`, and `API_VERSION` with your OpenAI credentials.
 
 ## Usage
 
