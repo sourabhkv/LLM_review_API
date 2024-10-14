@@ -38,7 +38,7 @@ This approach ensures efficient data extraction and processing, leveraging Selen
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/sourabhkv/LLM_review_API.git
-cd LLM_review_API
+   cd LLM_review_API
    ```
 
 2. **Install Dependencies**:
@@ -83,6 +83,9 @@ cd LLM_review_API
 }
 ```
 ![image](https://github.com/user-attachments/assets/0c6435f0-4c49-4a01-b034-29f3cb418701)
+
+![Screenshot 2024-10-14 130113](https://github.com/user-attachments/assets/8f4007ed-b859-4d29-ad25-d1648e91d136)
+
 
 
 ## Error Handling
