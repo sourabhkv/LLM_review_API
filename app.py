@@ -9,34 +9,28 @@ from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.edge.options import Options
 from openai import OpenAI
+from fastapi import FastAPI, Request
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
 
-# Create FastAPI app instance
 app = FastAPI()
 
-# Path to your Edge WebDriver executable
+# Path to your msedgedriver
 EDGE_DRIVER_PATH = './msedgedriver.exe'
 
-# Environment variables for  OpenAI configuration
 OPENAI_ENDPOINT = os.getenv("OPENAI_ENDPOINT")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-DEPLOYMENT_NAME = os.getenv("DEPLOYMENT_NAME") or 'gpt-4o-mini'
+DEPLOYMENT_NAME = os.getenv("DEPLOYMENT_NAME")
 API_VERSION = os.getenv("API_VERSION")
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", 800))
 
-# Initialize  OpenAI client
 client = OpenAI(
-    _endpoint=OPENAI_ENDPOINT,
+    endpoint=OPENAI_ENDPOINT,
     api_key=OPENAI_API_KEY,
     api_version=API_VERSION,
 )
 
 def setup_selenium():
-    """
-    Setup Selenium WebDriver with Edge browser.
-
-    Returns:
-        WebDriver: Configured Selenium WebDriver instance.
-    """
     options = Options()
     options.add_argument("--disable-gpu")
     options.add_argument("--disable-dev-shm-usage")
@@ -49,19 +43,10 @@ def setup_selenium():
     return driver
 
 def fetch_html_selenium(url):
-    """
-    Fetch HTML content from a webpage using Selenium.
-
-    Args:
-        url (str): URL of the webpage to fetch.
-
-    Returns:
-        str: HTML content of the webpage.
-    """
     driver = setup_selenium()
     try:
         driver.get(url)
-        time.sleep(1)  # Simulate time for page to load
+        #time.sleep(1)  # Simulate time for page to load
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         html = driver.page_source
         return html
@@ -69,30 +54,12 @@ def fetch_html_selenium(url):
         driver.quit()
 
 def clean_html(html_content):
-    """
-    Clean HTML content by removing unnecessary elements.
-
-    Args:
-        html_content (str): Raw HTML content.
-
-    Returns:
-        str: Cleaned HTML content as a string.
-    """
     soup = BeautifulSoup(html_content, 'html.parser')
     for element in soup.find_all(['header', 'footer', 'script', 'style']):
         element.decompose()
     return str(soup)
 
 def html_to_markdown_with_readability(html_content):
-    """
-    Convert cleaned HTML content to Markdown format.
-
-    Args:
-        html_content (str): Cleaned HTML content.
-
-    Returns:
-        str: Markdown content.
-    """
     cleaned_html = clean_html(html_content)
     markdown_converter = html2text.HTML2Text()
     markdown_converter.ignore_links = False
@@ -100,31 +67,19 @@ def html_to_markdown_with_readability(html_content):
     return markdown_content
 
 def split_dom_content(dom_content, max_length=6000):
-    """
-    Split DOM content into manageable parts.
-
-    Args:
-        dom_content (str): DOM content in string format.
-        max_length (int): Maximum length of each part.
-
-    Returns:
-        list: List of split DOM content strings.
-    """
     return [
         dom_content[i: i + max_length] for i in range(0, len(dom_content), max_length)
     ]
 
+templates = Jinja2Templates(directory="templates")
+
+@app.get("/", response_class=HTMLResponse)
+async def read_root(request: Request):
+    return templates.TemplateResponse("index.html", {"request": request})
+
 @app.get("/api/reviews")
 async def get_reviews(page: str):
-    """
-    API endpoint to get reviews from a webpage.
-
-    Args:
-        page (str): URL of the webpage to scrape reviews from.
-
-    Returns:
-        dict: JSON response containing reviews count and review details.
-    """
+    print(page)
     try:
         html_content = fetch_html_selenium(page)
         markdown_content = html_to_markdown_with_readability(html_content)
@@ -133,27 +88,24 @@ async def get_reviews(page: str):
         all_reviews = []
 
         for part in dom_parts:
-            # Use OpenAI API to extract reviews
-            completion = client.chat.completions.create(
-                model=DEPLOYMENT_NAME,
-                messages=[
-                    {"role": "system", "content": '''You are a helpful assistant that helps get review information from a webpage. You will be delivered information of a webpage. Provide content in JSON like this:
-                    "reviews": [{
-                        "title": "Review Title",
-                        "body": "Review body text",
-                        "rating": 5,
-                        "reviewer": "Reviewer Name"
-                    },
-                    ].'''},
-                    {"role": "user", "content": part},
-                ],
-                max_tokens=MAX_TOKENS,
-                temperature=0.0,
-                top_p=0.95,
-                stream=False
-            )
+            completion = client.chat.completions.create(  
+            model=DEPLOYMENT_NAME,  
+            messages=[{"role": "system", "content": '''You are a helpful assistant that extracts review details from web content.
+                    Format the reviews like this:
+                    {
+                        "reviews": [
+                            {
+                                "title": "Review Title",
+                                "body": "Review content",
+                                "rating": 5,
+                                "reviewer": "Reviewer Name"
+                            }
+                        ]
+                    }.'''},
+                    {"role": "user", "content": part}
+                ], 
+                )
             content = completion.choices[0].message.content.strip()
-            # Extract JSON content from formatted string
             if content.startswith("```json") and content.endswith("```"):
                 content = content[7:-3].strip()
             try:
@@ -173,5 +125,4 @@ async def get_reviews(page: str):
 
 if __name__ == "__main__":
     import uvicorn
-    # Run the FastAPI application
     uvicorn.run(app, host="0.0.0.0", port=8000)
