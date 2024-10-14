@@ -54,6 +54,9 @@
     <script>
         async function fetchReviews() {
             const url = document.getElementById('urlInput').value;
+            const tbody = document.getElementById('reviewsTable').querySelector('tbody');
+            tbody.innerHTML = ''; // Clear existing rows immediately
+
             if (!url) {
                 alert("Please enter a valid URL");
                 return;
@@ -64,8 +67,6 @@
                     throw new Error('Network response was not ok');
                 }
                 const data = await response.json();
-                const tbody = document.getElementById('reviewsTable').querySelector('tbody');
-                tbody.innerHTML = ''; // Clear existing rows
 
                 data.reviews.forEach(review => {
                     const row = document.createElement('tr');
