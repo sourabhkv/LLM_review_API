@@ -38,12 +38,11 @@ This approach ensures efficient data extraction and processing, leveraging Selen
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/sourabhkv/LLM_review_API.git
-   cd repository-directory
    ```
 
 2. **Install Dependencies**:
    ```bash
-   pip install fastapi uvicorn selenium openai beautifulsoup4 html2text
+   pip install -r requirements.txt
    ```
 
 3. **Setup Microsoft Edge WebDriver**:
@@ -57,7 +56,7 @@ This approach ensures efficient data extraction and processing, leveraging Selen
 
 1. **Run the FastAPI Server**:
    ```bash
-   uvicorn main:app --reload
+   uvicorn app:app --reload
    ```
 
 2. **Access the API**:
