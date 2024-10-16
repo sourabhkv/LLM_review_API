@@ -8,7 +8,7 @@ import html2text
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.edge.options import Options
-from openai import OpenAI
+from openai import OpenAI, AzureOpenAI
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
@@ -20,14 +20,21 @@ EDGE_DRIVER_PATH = './msedgedriver.exe'
 
 OPENAI_ENDPOINT = os.getenv("OPENAI_ENDPOINT")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-DEPLOYMENT_NAME = os.getenv("DEPLOYMENT_NAME")
-API_VERSION = os.getenv("API_VERSION")
+DEPLOYMENT_NAME = os.getenv("DEPLOYMENT_NAME") or 'gpt-4o-mini'
+API_VERSION = os.getenv("API_VERSION") or '2024-09-01-preview'
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", 800))
 
-client = OpenAI(
+'''
+This part is for Azure OpenAI which i had access to
+client = AzureOpenAI(
     endpoint=OPENAI_ENDPOINT,
     api_key=OPENAI_API_KEY,
     api_version=API_VERSION,
+)
+'''
+#This is for OpenAI
+client = OpenAI(
+    api_key=os.getenv("OPENAI_API_KEY"),
 )
 
 def setup_selenium():
