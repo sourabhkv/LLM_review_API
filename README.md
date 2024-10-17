@@ -86,6 +86,8 @@ This approach ensures efficient data extraction and processing, leveraging Selen
 
 ![Screenshot 2024-10-14 130113](https://github.com/user-attachments/assets/8f4007ed-b859-4d29-ad25-d1648e91d136)
 
+- See `results.json` file for more info, URL for it was https://amzn.in/d/5GN09lj
+
 
 
 ## Error Handling

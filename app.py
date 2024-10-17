@@ -1,22 +1,27 @@
 import os
+import platform
 import time
 import json
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+import random
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
 from bs4 import BeautifulSoup
 import html2text
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.edge.options import Options
-from openai import OpenAI, AzureOpenAI
-from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse
-from fastapi.templating import Jinja2Templates
+from openai import AzureOpenAI, OpenAI
+from dotenv import load_dotenv
+load_dotenv()
 
 app = FastAPI()
 
-# Path to your msedgedriver
-EDGE_DRIVER_PATH = './msedgedriver.exe'
+# Determine the path for the Edge WebDriver based on the OS
+if platform.system() == "Windows":
+    EDGE_DRIVER_PATH = './msedgedriver.exe'
+else:
+    EDGE_DRIVER_PATH = './msedgedriver'
 
 OPENAI_ENDPOINT = os.getenv("OPENAI_ENDPOINT")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -37,13 +42,25 @@ client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
 )
 
+# List of user agents
+user_agents = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0",
+]
+
 def setup_selenium():
     options = Options()
     options.add_argument("--disable-gpu")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--inprivate")
-    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    
+    # Select a random user agent
+    random_user_agent = random.choice(user_agents)
+    options.add_argument(f"user-agent={random_user_agent}")
 
     service = Service(executable_path=EDGE_DRIVER_PATH)
     driver = webdriver.Edge(service=service, options=options)
@@ -53,8 +70,8 @@ def fetch_html_selenium(url):
     driver = setup_selenium()
     try:
         driver.get(url)
-        #time.sleep(1)  # Simulate time for page to load
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(1)
         html = driver.page_source
         return html
     finally:
@@ -93,24 +110,24 @@ async def get_reviews(page: str):
         dom_parts = split_dom_content(markdown_content)
 
         all_reviews = []
-
         for part in dom_parts:
             completion = client.chat.completions.create(  
-            model=DEPLOYMENT_NAME,  
-            messages=[{"role": "system", "content": '''You are a helpful assistant that extracts review details from web content.
-                    Format the reviews like this:
-                    {
-                        "reviews": [
-                            {
-                                "title": "Review Title",
-                                "body": "Review content",
-                                "rating": 5,
-                                "reviewer": "Reviewer Name"
-                            }
-                        ]
-                    }.'''},
-                    {"role": "user", "content": part}
-                ], 
+                model=DEPLOYMENT_NAME,  
+                max_tokens=4000,
+                messages=[{"role": "system", "content": '''You are a helpful assistant that extracts review details from web content.
+                        Format the reviews like this in JSON:
+                        {
+                            "reviews": [
+                                {
+                                    "title": "Review Title",
+                                    "body": "Review content",
+                                    "rating": 5,
+                                    "reviewer": "Reviewer Name"
+                                }
+                            ]
+                        }'''},
+                        {"role": "user", "content": part}
+                    ], 
                 )
             content = completion.choices[0].message.content.strip()
             if content.startswith("```json") and content.endswith("```"):
@@ -129,7 +146,3 @@ async def get_reviews(page: str):
         return final_output
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)

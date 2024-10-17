@@ -1,0 +1,893 @@
+{
+    "reviews_count": 148,
+    "reviews": [
+        {
+            "title": "Great Sound Quality!",
+            "body": "The OnePlus Nord Buds 2R deliver excellent sound quality with deep bass and clear treble. Very comfortable to wear for long periods. Highly recommend for music lovers!",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Battery Life Is Impressive",
+            "body": "I was blown away by the battery life of these earbuds. They easily provide 38 hours of playback time. Perfect for long trips!",
+            "rating": 4,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Good Value for Money",
+            "body": "For the price, these earbuds are an excellent choice. They are lightweight and have decent sound quality. However, I'd wish for better noise cancellation.",
+            "rating": 4,
+            "reviewer": "Mike Johnson"
+        },
+        {
+            "title": "Comfortable Fit",
+            "body": "The fit of these earbuds is very comfortable, even during extended use. They do a great job in staying in place while working out.",
+            "rating": 5,
+            "reviewer": "Emily Davis"
+        },
+        {
+            "title": "Average Performance",
+            "body": "In terms of performance, they are okay but not extraordinary. The features are nice, but I expected a bit more clarity in sound.",
+            "rating": 3,
+            "reviewer": "Chris Brown"
+        },
+        {
+            "title": "Fantastic Sound Quality!",
+            "body": "The OnePlus Nord Buds 2r offer amazing sound quality with crisp and clear audio. The bass is enhanced and immersive, making it a great experience for music lovers.",
+            "rating": 5,
+            "reviewer": "MusicFan91"
+        },
+        {
+            "title": "Great Battery Life",
+            "body": "I am very impressed with the battery life of these earbuds. They last up to 38 hours on a single charge, which is perfect for long trips or daily usage.",
+            "rating": 4,
+            "reviewer": "TravelBlogger"
+        },
+        {
+            "title": "Comfortable Fit",
+            "body": "These earbuds fit perfectly in my ears and are very comfortable to wear for long periods. I appreciate the in-ear design that isolates external noise effectively.",
+            "rating": 4,
+            "reviewer": "SophieW"
+        },
+        {
+            "title": "IP55 Rating is a Plus",
+            "body": "I love that these earbuds have an IP55 water and sweat resistance rating. It gives me peace of mind while exercising or when caught in light rain.",
+            "rating": 5,
+            "reviewer": "FitnessGuru"
+        },
+        {
+            "title": "Great Features for Gamers",
+            "body": "The gaming mode is a fantastic addition! It allows for quick access to features, making it very convenient when I'm in a gaming session.",
+            "rating": 5,
+            "reviewer": "GamerX"
+        },
+        {
+            "title": "Great Sound Quality",
+            "body": "The sound quality of these earbuds is amazing! Battery life is impressive too, lasting for about 45 hours. Highly recommend!",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Value for Money",
+            "body": "For the price, you get great features and quality. Comfortable to wear for long hours.",
+            "rating": 4,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Decent Performance",
+            "body": "The performance is decent but not exceptional. Good for casual listening but might not satisfy audiophiles.",
+            "rating": 3,
+            "reviewer": "Michael Brown"
+        },
+        {
+            "title": "Not worth the hype",
+            "body": "Expected more from these after reading numerous positive reviews. They are just average.",
+            "rating": 2,
+            "reviewer": "Emily Davis"
+        },
+        {
+            "title": "Perfect for Daily Use",
+            "body": "These earbuds fit perfectly and are great for everyday use. Good battery life and sound.",
+            "rating": 4,
+            "reviewer": "Robert Wilson"
+        },
+        {
+            "title": "Great product at a good discount",
+            "body": "I purchased this during the Great Indian Festival, and I couldn't be happier! The quality is impressive, and at ₹1,099, it’s a steal compared to the original price of ₹2,999.",
+            "rating": 5,
+            "reviewer": "Amit S."
+        },
+        {
+            "title": "Nice value for money",
+            "body": "This product works as described and was well worth the discounted price. I recommend it to anyone looking for quality without breaking the bank.",
+            "rating": 4,
+            "reviewer": "Priya K."
+        },
+        {
+            "title": "Satisfactory purchase",
+            "body": "The product arrived on time and is functioning well so far. The discount was a great incentive to buy, though I still have some concerns about long-term durability.",
+            "rating": 4,
+            "reviewer": "Ravi T."
+        },
+        {
+            "title": "Good Battery Life and Sound Quality",
+            "body": "I am impressed by the battery life. With 100 hours of playtime, these earbuds can last for days. The sound quality is decent for the price and the low latency is a plus for gaming. However, the fit could be better as they sometimes feel a bit loose.",
+            "rating": 4,
+            "reviewer": "TechGuru23"
+        },
+        {
+            "title": "Not Great for Calls",
+            "body": "While the earbuds have good sound quality for music, I found that the call quality is subpar. The microphones do pick up background noise and my voice wasn’t as clear. I expected better performance from the quad mic ENC feature.",
+            "rating": 3,
+            "reviewer": "SoundLover99"
+        },
+        {
+            "title": "Impressive Features for the Price",
+            "body": "These earbuds come loaded with features like low latency and a premium grip case, making them a great value. The sound quality for bass is quite impressive, especially for gamers. However, I wish the earbuds had a more secure fit.",
+            "rating": 4,
+            "reviewer": "GamerPanda"
+        },
+        {
+            "title": "Good for Casual Use",
+            "body": "I think these are good for everyday use. The sound quality is decent, and I appreciate the quick charging feature. However, they aren't as comfortable during long listening sessions.",
+            "rating": 3,
+            "reviewer": "CasualListener"
+        },
+        {
+            "title": "They're Just Okay",
+            "body": "I was expecting more from the Boult Audio Z40 Pro. The sound is good, but not exceptional. The 100-hour battery life is overhyped; I found it lasts for about a week with moderate use. Overall, they are just okay.",
+            "rating": 3,
+            "reviewer": "AverageJoe"
+        },
+        {
+            "title": "Excellent Bluetooth Earbuds",
+            "body": "The Boult K10 earbuds are amazing! The sound quality is top-notch and the 50-hour playtime is a game-changer. I love using them for long calls and listening to music. Highly recommended!",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Great Value for Money",
+            "body": "I’ve been using these earbuds for a while and I’m really impressed with their performance. The low latency is perfect for gaming and the battery life is outstanding!",
+            "rating": 4,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Highly Satisfied",
+            "body": "These earbuds were a great buy! They fit comfortably, connect easily, and sound great. The built-in mic works well for calls too. Definitely worth the price!",
+            "rating": 5,
+            "reviewer": "Alice Johnson"
+        },
+        {
+            "title": "Decent for Casual Use",
+            "body": "They are decent earbuds for everyday use. The sound is good but I expected a bit more bass. For the price, they are worth it.",
+            "rating": 3,
+            "reviewer": "Mike Brown"
+        },
+        {
+            "title": "Not the Best Experience",
+            "body": "I had some issues with pairing these with my phone. They disconnect sometimes, which is frustrating. However, when they work, the quality is good.",
+            "rating": 2,
+            "reviewer": "Tom Wilson"
+        },
+        {
+            "title": "Great Sound Quality!",
+            "body": "The Boult Audio UFO earbuds have fantastic sound quality, especially for the price. The bass is deep and rich, making them great for music and gaming alike. The low latency is a plus for gamers too.",
+            "rating": 5,
+            "reviewer": "Amit S."
+        },
+        {
+            "title": "Decent Earbuds for the Price",
+            "body": "These earbuds are quite good for the cost. The battery life is impressive, lasting for a long time. However, the touch controls could be a bit more responsive.",
+            "rating": 4,
+            "reviewer": "Priya K."
+        },
+        {
+            "title": "Not Bad, but Could Be Better",
+            "body": "They are okay, but I found that they don't fit as snugly as I would like. Sometimes they tend to fall out when jogging. The sound quality is decent though.",
+            "rating": 3,
+            "reviewer": "Rahul M."
+        },
+        {
+            "title": "Excellent Value for Money!",
+            "body": "Superb quality and features at this price point! The noise cancellation works well, and the sound clarity is impressive. Highly recommend!",
+            "rating": 5,
+            "reviewer": "Neha T."
+        },
+        {
+            "title": "Good, but Not Great",
+            "body": "While they perform well most of the time, I faced connectivity issues occasionally. They could improve on stability, but overall are worth considering.",
+            "rating": 3,
+            "reviewer": "Suresh P."
+        },
+        {
+            "title": "Great Earbuds!",
+            "body": "These Noise Buds Connect are excellent. The battery life is amazing with 50H of playtime, and the quad mic with ENC works perfectly for calls.",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Decent Sound Quality",
+            "body": "I had high hopes for these earbuds. The sound quality is good, but I expected more from the bass. Overall, they're decent for casual use.",
+            "rating": 3,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "User Friendly",
+            "body": "Super easy to connect and use. The Instacharge feature is definitely a plus! Comfortable to wear for long durations.",
+            "rating": 4,
+            "reviewer": "Emily Johnson"
+        },
+        {
+            "title": "Not Worth the Price",
+            "body": "While the features looked good on paper, the earbuds did not live up to expectations. Connectivity issues and average sound quality.",
+            "rating": 2,
+            "reviewer": "Mark Lee"
+        },
+        {
+            "title": "Best Earbuds I've Used!",
+            "body": "The Noise Aura Buds are my favorite! The sound quality is top-notch, and they last a long time on a single charge.",
+            "rating": 5,
+            "reviewer": "Sarah Wilson"
+        },
+        {
+            "title": "Great Sound Quality",
+            "body": "I am really impressed with the Boult Audio Z60 Earbuds. The sound quality is fantastic, and the battery life lasts a long time. Perfect for long listening sessions!",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Comfortable Fit",
+            "body": "These earbuds are very comfortable to wear for long periods. I love using them during my workouts, and they stay in place perfectly.",
+            "rating": 4,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Decent for Gaming",
+            "body": "I purchased these for gaming, and the low latency feature really makes a difference. The sound is clear, though, I wish the bass was a bit stronger.",
+            "rating": 4,
+            "reviewer": "GamerGuy123"
+        },
+        {
+            "title": "Stylish and Functional",
+            "body": "I love the design of these earbuds! They look great and function well too. The charging speed is impressive with the Type-C port.",
+            "rating": 5,
+            "reviewer": "FashionEnthusiast"
+        },
+        {
+            "title": "Battery Life is Amazing",
+            "body": "With a specified 60 hours of battery life, these earbuds have outdone themselves! I hardly ever need to charge them.",
+            "rating": 5,
+            "reviewer": "MusicLover"
+        },
+        {
+            "title": "Good but Not Great",
+            "body": "While the earbuds are good overall, I've experienced connectivity issues intermittently. They disconnect randomly at times.",
+            "rating": 3,
+            "reviewer": "TechSavvy"
+        },
+        {
+            "title": "Nice Sound for the Price",
+            "body": "For the price point, these earbuds offer great value. They sound good and have a lot of features, but there are better options available if you're willing to spend more.",
+            "rating": 4,
+            "reviewer": "BudgetBuyer"
+        },
+        {
+            "title": "Great Sound Quality!",
+            "body": "I love these earbuds! The sound quality is fantastic, and the battery life is unbeatable with 120 hours of playtime. The design feels premium, and they are very comfortable to wear.",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Noise cancellation is impressive",
+            "body": "The quad mic with ENC works wonders. I can make calls without background noise disturbing the conversation. Highly recommend for anyone who needs good audio on the go.",
+            "rating": 4,
+            "reviewer": "Sarah Smith"
+        },
+        {
+            "title": "Best Value for Money",
+            "body": "For the price, these earbuds deliver incredible performance. The fast charging feature is a lifesaver! You really can't go wrong with these.",
+            "rating": 5,
+            "reviewer": "Mike Johnson"
+        },
+        {
+            "title": "Okay, but not perfect",
+            "body": "While the sound quality is decent, I found the fit a bit loose. They occasionally fall out during workouts. Overall, they are still a good choice if you're looking for budget-friendly options.",
+            "rating": 3,
+            "reviewer": "Emily Davis"
+        },
+        {
+            "title": "Impressive battery life!",
+            "body": "These earbuds last for days on a single charge. I love using them during long flights. The only downside is the touch controls can be a bit sensitive at times.",
+            "rating": 4,
+            "reviewer": "Kevin Brown"
+        },
+        {
+            "title": "Fantastic Sound Quality!",
+            "body": "These earbuds have incredible sound quality with rich bass and clear vocals. The fit is comfortable for long listening sessions.",
+            "rating": 5,
+            "reviewer": "Alice Johnson"
+        },
+        {
+            "title": "Good Value for Money",
+            "body": "Great features for the price. The battery life is impressive and they are quite durable. Highly recommend!",
+            "rating": 4,
+            "reviewer": "Michael Smith"
+        },
+        {
+            "title": "Disappointed with ANC",
+            "body": "The active noise cancellation is not as effective as I had hoped. However, the sound quality is still good.",
+            "rating": 3,
+            "reviewer": "Emily Davis"
+        },
+        {
+            "title": "Awesome Earbuds!",
+            "body": "These earbuds exceeded my expectations. I love the design and they stay in place during workouts.",
+            "rating": 5,
+            "reviewer": "James Brown"
+        },
+        {
+            "title": "Average Performance",
+            "body": "The sound quality is decent, but I expected more features for the price point. They are okay for casual listening.",
+            "rating": 3,
+            "reviewer": "Sara Wilson"
+        },
+        {
+            "title": "Great Battery Life",
+            "body": "I am really impressed with the battery life; it lasts longer than my previous pair. Perfect for traveling!",
+            "rating": 4,
+            "reviewer": "David Lee"
+        },
+        {
+            "title": "Great Sound Quality",
+            "body": "These earbuds have amazing sound quality and the noise cancellation is impressive. The battery life is also great!",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Comfortable Fit",
+            "body": "I found these earbuds to be very comfortable for long listening sessions. They stay secure even when I’m on the move.",
+            "rating": 4,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Good Value for Money",
+            "body": "For the price, these earbuds deliver outstanding features like water resistance and quick connectivity. Highly recommend!",
+            "rating": 4,
+            "reviewer": "Emily Johnson"
+        },
+        {
+            "title": "Battery Life Disappoints",
+            "body": "While these earbuds sound good, I was disappointed with the battery life. It didn’t last as long as advertised.",
+            "rating": 3,
+            "reviewer": "Mark Lee"
+        },
+        {
+            "title": "Solid Performance",
+            "body": "Overall, the performance is solid, but there were some latency issues during gaming. That's something to consider if you’re a gamer.",
+            "rating": 3,
+            "reviewer": "Sarah Brown"
+        },
+        {
+            "title": "Great Sound Quality",
+            "body": "I am impressed with the sound quality and features of these earbuds. They are comfortable to wear and the battery life is excellent.",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Good for the Price",
+            "body": "These are decent earbuds for their price point. The touch controls work fine and the IPX5 rating is a plus for workouts.",
+            "rating": 4,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Battery Life Can Be Better",
+            "body": "While the earbuds perform well, I found the battery life to be not as long as advertised. Overall, they are decent but could use some improvements.",
+            "rating": 3,
+            "reviewer": "Mike Johnson"
+        },
+        {
+            "title": "Not Worth the Hype",
+            "body": "I expected more based on the reviews. The sound quality is average and the earbuds sometimes disconnect from my phone.",
+            "rating": 2,
+            "reviewer": "Emily Davis"
+        },
+        {
+            "title": "Excellent Value",
+            "body": "For the price, these earbuds offer great value! The sound is clear and they fit snugly in my ears. Highly recommend!",
+            "rating": 5,
+            "reviewer": "Alice Brown"
+        },
+        {
+            "title": "Noise Newly Launched Buds N1 Pro Review",
+            "body": "These earbuds come with an excellent metallic finish and impressive features like Active Noise Cancellation and a long battery life of up to 60 hours. The dual pairing and quick charging capability (10 mins charge for 200 mins playback) are also great bonuses.",
+            "rating": 4,
+            "reviewer": "Anonymous"
+        },
+        {
+            "title": "OnePlus Nord 4 5G Review",
+            "body": "The OnePlus Nord 4 5G is a fantastic phone with sleek design and powerful performance. It offers ample storage with 256GB and smooth multitasking with 8GB RAM. The phone's battery life is also commendable, making it a great choice for anyone in the market for a new smartphone.",
+            "rating": 4,
+            "reviewer": "Anonymous"
+        },
+        {
+            "title": "Great Phone for the Price",
+            "body": "The OnePlus Nord CE4 Lite 5G is an incredible value with its 8GB RAM and 128GB storage. The performance is smooth and it handles multitasking effortlessly. Battery life is impressive as well.",
+            "rating": 5,
+            "reviewer": "Amit S."
+        },
+        {
+            "title": "Decent Performance",
+            "body": "Overall, this phone is decent for everyday use. The camera quality is satisfactory, but could be better in low light. For the price, it's a good choice, but it has its limitations.",
+            "rating": 4,
+            "reviewer": "Rahul P."
+        },
+        {
+            "title": "Value for Money",
+            "body": "I bought the OnePlus Nord CE4 Lite during the Great Indian Festival and I’m very satisfied with my purchase. For its features, it is hard to beat in this price range.",
+            "rating": 5,
+            "reviewer": "Priya K."
+        },
+        {
+            "title": "Not the Best Camera",
+            "body": "While the phone performs well overall, I was disappointed with the camera quality. The pictures are okay but not great, especially in low light conditions.",
+            "rating": 3,
+            "reviewer": "Sneha M."
+        },
+        {
+            "title": "Good Battery Life",
+            "body": "The battery life of this device is impressive! I can easily go through a day on a single charge with regular use. I also enjoyed the fast charging feature.",
+            "rating": 4,
+            "reviewer": "Vikram D."
+        },
+        {
+            "title": "Excellent Phone!",
+            "body": "The Oneplus Nord CE4 is incredible value for money. It has great performance, a beautiful display, and the battery life is impressive. I highly recommend it to anyone looking for a mid-range smartphone.",
+            "rating": 5,
+            "reviewer": "Aarav"
+        },
+        {
+            "title": "Great Performance, Good Value",
+            "body": "I bought this phone a month ago and it has exceeded my expectations. The camera quality is excellent and the phone runs smoothly even when multitasking. A great buy for the price!",
+            "rating": 4,
+            "reviewer": "Sneha"
+        },
+        {
+            "title": "Very Impressed!",
+            "body": "After using the Oneplus Nord CE4 for a few weeks, I can say that it is one of the best phones in its price range. The features are top-notch and it feels premium. Definitely worth every penny.",
+            "rating": 5,
+            "reviewer": "Rohan"
+        },
+        {
+            "title": "Not As Expected",
+            "body": "I was excited about this phone but faced some issues with the battery life and heating problems during gaming. Not a bad phone, but I expected more from Oneplus.",
+            "rating": 3,
+            "reviewer": "Priya"
+        },
+        {
+            "title": "Excellent Sound Quality",
+            "body": "The Mivi SuperPods Dueto earbuds deliver outstanding sound quality with their dual drivers. The 3D soundstage is impressive, making every track enjoyable. The 60h playtime is also a huge plus!",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Value for Money",
+            "body": "For the price, these earbuds are unbeatable. They provide great audio performance and the AI-ENC feature really helps with call clarity. Highly recommend!",
+            "rating": 4,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Not Great for Small Ears",
+            "body": "While the sound quality is good, I found them to be uncomfortable for longer use. They don't fit very well in my ears. Disappointed overall.",
+            "rating": 2,
+            "reviewer": "Alice Johnson"
+        },
+        {
+            "title": "Battery Life is Impressive",
+            "body": "The battery life lives up to its claims. I use them all day and rarely need to recharge. If you're looking for longevity, these are great earbuds!",
+            "rating": 5,
+            "reviewer": "Mark Lee"
+        },
+        {
+            "title": "Mediocre Performance",
+            "body": "The earbuds are okay for casual listening, but they lack depth in sound. For audiophiles, I would suggest looking at other options.",
+            "rating": 3,
+            "reviewer": "Emily Davis"
+        },
+        {
+            "title": "Great earbuds for the price",
+            "body": "These Redmi Buds 5C are fantastic! The noise cancellation is impressive for the price point, and they have great battery life. I love how quick they charge—10 minutes gives me a solid 2 hours of playtime. Highly recommend them for anyone looking for budget-friendly earbuds.",
+            "rating": 4,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Decent sound quality",
+            "body": "The sound quality is decent, especially for the price. I was surprised by the clarity and the bass response. However, the noise cancellation could be better, as it doesn’t completely block out loud environments. Overall, a good product for casual use.",
+            "rating": 3,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Excellent value!",
+            "body": "I bought these on sale and I couldn't be happier! They fit well and are comfortable for long listening sessions. The sound is clear, and the battery lasts a long time. Definitely a steal at this price during the Great Indian Festival!",
+            "rating": 5,
+            "reviewer": "Alice Johnson"
+        },
+        {
+            "title": "Good, but not perfect",
+            "body": "While they are good for day-to-day use, I found the range of the Bluetooth connectivity lacking at times. They work best when the device is close by. The touch controls can be sensitive too. Nonetheless, they perform well for music and calls.",
+            "rating": 3,
+            "reviewer": "Michael Brown"
+        },
+        {
+            "title": "Noise Buds VS104 - Fantastic Value",
+            "body": "These earbuds have amazing sound quality, and the battery life is phenomenal. The quick charge feature is a lifesaver. Highly recommend!",
+            "rating": 5,
+            "reviewer": "Aarav"
+        },
+        {
+            "title": "Good Speakers but Slightly Heavy",
+            "body": "The Noise Buds VS104 are good for the price, but they feel a bit heavy in the ears after prolonged use. Sound quality is decent.",
+            "rating": 3,
+            "reviewer": "Riya"
+        },
+        {
+            "title": "Boult x Mustang Dash - Impressive Battery Life",
+            "body": "These earbuds lasted me over a week on a single charge with regular use. Great for music lovers!",
+            "rating": 4,
+            "reviewer": "Siddharth"
+        },
+        {
+            "title": "Mini Review of Boult x Mustang",
+            "body": "The sound quality is good but the connection tends to drop occasionally. I hope future updates improve this.",
+            "rating": 3,
+            "reviewer": "Nisha"
+        },
+        {
+            "title": "Leaf Earbuds - Decent for Calls",
+            "body": "These are fantastic for calls, the microphone quality is quite clear. However, I found the sound a bit lacking for music.",
+            "rating": 4,
+            "reviewer": "Kabir"
+        },
+        {
+            "title": "Leaf Performance - A Mixed Bag",
+            "body": "For the price, they perform okay. The audio quality is average, but they are comfortable to wear for long periods.",
+            "rating": 3,
+            "reviewer": "Priya"
+        },
+        {
+            "title": "Great Earbuds for the Price!",
+            "body": "These Leaf Buds X121 are phenomenal for their price. The sound quality is impressive, and the battery life lasts through my long workdays. The fast charging feature is a lifesaver too.",
+            "rating": 5,
+            "reviewer": "Vikram"
+        },
+        {
+            "title": "Decent but Not Perfect",
+            "body": "While the sound is decent, the connectivity drops occasionally, which can be frustrating. Overall, they're a good buy considering the low price.",
+            "rating": 3,
+            "reviewer": "Neha"
+        },
+        {
+            "title": "Not Impressed",
+            "body": "I had high expectations based on the reviews, but the bass was lacking and the fit was uncomfortable. I would not recommend these.",
+            "rating": 2,
+            "reviewer": "Rajesh"
+        },
+        {
+            "title": "Good Value for Money",
+            "body": "For ₹789, the Leaf Buds X121 are great! They sound better than expected and fit snugly in my ears. I’ve already bought a second pair.",
+            "rating": 4,
+            "reviewer": "Sita"
+        },
+        {
+            "title": "Excellent Battery Life",
+            "body": "The 30-hour playtime is exactly as advertised. I love that I can use these for a week on a single charge without any issues.",
+            "rating": 5,
+            "reviewer": "Karan"
+        },
+        {
+            "title": "Exceptional Sound Quality",
+            "body": "The noise cancellation works like a charm, especially if you're pairing them with a OnePlus smartphone—there's definitely an edge there in terms of performance.",
+            "rating": 5,
+            "reviewer": "Verified Customer"
+        },
+        {
+            "title": "High-Quality Sound and Battery Life",
+            "body": "They combine high-quality sound, impressive battery life, and a comfortable fit, making them a great choice for both casual listeners and audiophiles.",
+            "rating": 5,
+            "reviewer": "Music Lover"
+        },
+        {
+            "title": "Great Build Quality",
+            "body": "The build quality of this product is very good as well as sound quality also good. It's comfortable to wear for long periods.",
+            "rating": 4,
+            "reviewer": "Regular User"
+        },
+        {
+            "title": "Affordable with Great Features",
+            "body": "The bass is deep, the mids are clear, and the highs are crisp. Perfect for music lovers who don't want to break the bank.",
+            "rating": 5,
+            "reviewer": "Budget-conscious"
+        },
+        {
+            "title": "Best Value for Money",
+            "body": "Sound, good battery life, and solid noise cancellation at a reasonable price. Highly recommended!",
+            "rating": 5,
+            "reviewer": "Satisfied Customer"
+        },
+        {
+            "title": "Impressive Battery Life",
+            "body": "These earbuds are a great buy if you're looking for quality sound, good battery life, and solid noise cancellation at a reasonable price.",
+            "rating": 4,
+            "reviewer": "Active Listener"
+        },
+        {
+            "title": "Great Design and Usability",
+            "body": "These earbuds look awesome and are super easy to use. The design is sleek, and they fit comfortably in my ears.",
+            "rating": 5,
+            "reviewer": "Happy User"
+        },
+        {
+            "title": "Sleek and Functional",
+            "body": "The OnePlus Buds 2R boast a minimalist and sleek design. They come in a compact, oval-shaped charging case that easily fits in pockets and bags.",
+            "rating": 5,
+            "reviewer": "Fashion Enthusiast"
+        },
+        {
+            "title": "Mixed Opinions on Functionality",
+            "body": "Customers have mixed opinions about the functionality of the headphones. Some mention it's super and impressed with the overall performance, while others say the buds stopped working and the ANC also stopped.",
+            "rating": 3,
+            "reviewer": "Various Customers"
+        },
+        {
+            "title": "Impressed with Overall Performance",
+            "body": "I've used TWS earbuds for a while now, and I have to say I'm impressed with the overall performance.",
+            "rating": 5,
+            "reviewer": "A Satisfied User"
+        },
+        {
+            "title": "Right Side Earbud Not Working",
+            "body": "Right side ear bud not working.",
+            "rating": 1,
+            "reviewer": "Disappointed User"
+        },
+        {
+            "title": "High-Performing Earbuds",
+            "body": "If you’re looking for reliable and high-performing earbuds without breaking the bank, the OnePlus Buds 2R are definitely worth considering.",
+            "rating": 4,
+            "reviewer": "Value Seeker"
+        },
+        {
+            "title": "Connectivity Issues",
+            "body": "Customers have mixed opinions about the connectivity of the headphones. Some mention it has nice sound quality and rapid pairing, while others say they sometimes have connectivity issues.",
+            "rating": 3,
+            "reviewer": "Varied Experiences"
+        },
+        {
+            "title": "Buds Don’t Connect",
+            "body": "My buds don’t connect to hey melody, my phone iPhone 14 plus. iOS users don't buy it.",
+            "rating": 1,
+            "reviewer": "Frustrated Customer"
+        },
+        {
+            "title": "Google Pairing Feature",
+            "body": "Reasons why I wanted Z2 - 1. 3 mics 2. Google pairing - easy switch between devices.",
+            "rating": 4,
+            "reviewer": "Feature Enthusiast"
+        },
+        {
+            "title": "Comfort Handling",
+            "body": "Customers have mixed opinions about the comfort of the headphones. Some mention they have good ergonomics and a smooth matte finish, while others say they cause pain in their ears if used continuously.",
+            "rating": 3,
+            "reviewer": "Comfort Critic"
+        },
+        {
+            "title": "Perfect Fit",
+            "body": "Fit - Fits perfectly. No pain/discomfort. I ran on the treadmill for a few minutes at 12kmph.",
+            "rating": 5,
+            "reviewer": "Fitness Enthusiast"
+        },
+        {
+            "title": "Overwhelming Bass",
+            "body": "The bass drowns out the other sounds and overwhelms your ear.",
+            "rating": 2,
+            "reviewer": "Audio Fan"
+        },
+        {
+            "title": "Pain after One Hour of Use",
+            "body": "Using more than 1 hr ear starts to hurt and painful. You need to remove buds from ear to tackle the pain.",
+            "rating": 2,
+            "reviewer": "Comfort Seeker"
+        },
+        {
+            "title": "One plus Nord buds 2r",
+            "body": "The OnePlus Nord Buds 2r offer excellent sound quality for the price, making them a solid choice for budget-conscious users. The audio is crisp, with decent bass and clarity for most genres of music. The fit is comfortable, even during extended use, and the battery life is impressive, easily lasting through long listening sessions. However, they lack active noise cancellation, which can be a drawback in noisy environments. The touch controls can also feel a bit unresponsive at times. Despite these minor issues, they are an excellent value for everyday use.",
+            "rating": 5,
+            "reviewer": "Nikhil"
+        },
+        {
+            "title": "Great Sound and Value, Minor Trade-offs. After one month",
+            "body": "The OnePlus Nord Buds 2r offer excellent sound quality for the price, making them a solid choice for budget-conscious users. The audio is crisp, with decent bass and clarity for most genres of music. The fit is comfortable, even during extended use, and the battery life is impressive, easily lasting through long listening sessions. However, they lack active noise cancellation, which can be a drawback in noisy environments. The touch controls can also feel a bit unresponsive at times. Despite these minor issues, they are an excellent value for everyday use.",
+            "rating": 4,
+            "reviewer": "@PingalaTech"
+        },
+        {
+            "title": "Outstanding Sound Quality with Impressive Battery Life",
+            "body": "I recently purchased the OnePlus Buds 2R, and after using them extensively for a month, I feel confident in sharing my detailed review. These earbuds are an excellent addition to OnePlus’s audio lineup, offering a mix of stellar sound quality, impressive battery life, and a comfortable fit. The OnePlus Buds 2R boast a minimalist and sleek design. They come in a compact, oval-shaped charging case that easily fits in pockets and bags. The earbuds themselves have a matte finish which adds a premium touch. The sound quality of the OnePlus Buds 2R is where these earbuds truly shine. They deliver a rich and balanced sound profile with punchy bass, clear mids, and crisp highs. Battery life is another strong point, providing up to 7 hours on a full charge. The Bluetooth 5.2 connection is stable and reliable, and the IP55 rating makes them resistant to dust and water splashes. Overall, the OnePlus Buds 2R offer exceptional value for their price, combining high-quality sound, impressive battery life, and a comfortable fit.",
+            "rating": 5,
+            "reviewer": "Abhinav Bhutra"
+        },
+        {
+            "title": "Stop overthinking & trust me on this one - does more than just the job at a budget price!",
+            "body": "I ordered this product after thorough research. And I am happy that for this price, it exceeds my expectations. The design is lightweight and easy to carry. It fits perfectly with no discomfort, even during runs. Call quality is excellent, and audio performance is impressive, especially for bass lovers. Noise cancellation is effective, although I did notice a faint hissing sound. Overall, I am satisfied with my choice and happy I didn't go for the Buds Z2.",
+            "rating": 5,
+            "reviewer": "Raj Kriti Sinha"
+        },
+        {
+            "title": "Great Audio Quality and Effective ANC",
+            "body": "I'm quite fond of listening to loud music. This does more than just justice to the loudness. I am more than happy listening at 50% volume. It’s definitely bass heavy. The quality of the sound is clear and crisp. I am very happy. Noise cancellation is definitely very effective. It does as much as promised, not more. However, there is a faint hissing sound. But it doesn’t bother me when playing some music or audio.",
+            "rating": 5,
+            "reviewer": "Kuldip Chole"
+        },
+        {
+            "title": "Value for Money",
+            "body": "I have been using this product since a year. The build quality of this product is very good as well as sound quality also good. It's comfortable to ears. It's Bluetooth connectivity also good. In short this product is value for money.",
+            "rating": 4,
+            "reviewer": "Anonymous"
+        },
+        {
+            "title": "Connection Issues",
+            "body": "If you have expectations for your 60$ do not buy these. You cannot walk 20 ft away from your phone without losing connection. I would return them if I could. I have a OnePlus 10.",
+            "rating": 1,
+            "reviewer": "Amazon Customer"
+        },
+        {
+            "title": "Excellent Sound",
+            "body": "Working well, sound is great.",
+            "rating": 5,
+            "reviewer": "MDIsmail"
+        },
+        {
+            "title": "Amazing pair of earphones. Total value for money",
+            "body": "I have been using it for regular phone calls and team meetings and both cases it was great. Audibility is good and noise cancellation works great even when there was my kid playing in the background. Very rarely people complain about lost comms due to aggressive noise cancellation. If you are considering these earphones because you are in for a decent pair of earphones that are loud enough, good ANC and budget friendly these are for you.",
+            "rating": 5,
+            "reviewer": "Srini K"
+        },
+        {
+            "title": "The left one broke after 3 days",
+            "body": "Honestly I don’t listen to music much so I cannot say anything about sound quality. I do know that within 2 days the left one broke. Right one still works great but I’d love to have 2.",
+            "rating": 2,
+            "reviewer": "Brent"
+        },
+        {
+            "title": "Good",
+            "body": "Good",
+            "rating": 4,
+            "reviewer": "Kiran Kumar Damisetti"
+        },
+        {
+            "title": "Great Sound Quality",
+            "body": "The sound quality of the OnePlus Nord Buds 3 is exceptional. The active noise cancellation works wonderfully, and the fast charging feature is a game-changer.",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Decent Performance but Could Improve",
+            "body": "While the audio quality is good, I found the connection to be a bit unstable at times. Could improve in certain areas.",
+            "rating": 3,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Excellent Value for Money",
+            "body": "The boAt Airdopes 300 is an excellent product for the price. They offer robust sound and are very comfortable to wear.",
+            "rating": 4,
+            "reviewer": "Alice Johnson"
+        },
+        {
+            "title": "Not the Best",
+            "body": "I experienced issues with battery life. They keep running out of juice faster than expected, which is disappointing.",
+            "rating": 2,
+            "reviewer": "Bob Brown"
+        },
+        {
+            "title": "Stylish and Functional",
+            "body": "The OnePlus Bullets Z2 are stylish and deliver good sound with a decent microphone. Perfect for calls and casual listening.",
+            "rating": 4,
+            "reviewer": "Charlie Davis"
+        },
+        {
+            "title": "Great Sound and Battery Life!",
+            "body": "The OnePlus Bullets Z2 Bluetooth earphones deliver excellent sound quality with bombastic bass. The battery life is impressive too; I can listen for hours after just a quick 10-minute charge. The IP55 rating is a bonus for outdoor usage.",
+            "rating": 5,
+            "reviewer": "TechMaven"
+        },
+        {
+            "title": "Comfortable and Reliable",
+            "body": "These earphones are surprisingly comfortable for extended use. The sound is rich, and I love the quick charging feature. I would highly recommend them to anyone looking for quality wireless earphones.",
+            "rating": 4,
+            "reviewer": "MusicLover21"
+        },
+        {
+            "title": "Value for Money",
+            "body": "Considering the price and features, these earphones provide great value. The water resistance offers peace of mind, and the overall audio experience is solid for daily use.",
+            "rating": 4,
+            "reviewer": "DailyUser"
+        },
+        {
+            "title": "Good for the Price, but...",
+            "body": "While these earphones have decent sound quality and battery life, they tend to fall out during rigorous activity. They're good for casual use but might not be the best for workouts.",
+            "rating": 3,
+            "reviewer": "FitnessFreak"
+        },
+        {
+            "title": "Not Impressed",
+            "body": "I expected more based on the reviews. The bass was underwhelming, and the fit isn't great for my ears. Disappointed overall.",
+            "rating": 2,
+            "reviewer": "CriticalListener"
+        },
+        {
+            "title": "Great earbuds for the price",
+            "body": "These Bluetooth earphones deliver impressive sound quality, especially for the price. I was pleasantly surprised with the bass and comfort during long listening sessions.",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Excellent iPhone experience",
+            "body": "The iPhone 13 is fantastic! The camera quality is exceptional, and I love the fluidity of the iOS. It's a bit on the pricier side, but well worth every penny.",
+            "rating": 5,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Essential adapter for Apple devices",
+            "body": "This USB-C adapter is a must-have for anyone with Apple devices. It charges quickly and efficiently. I highly recommend it for iPhone and iPad users.",
+            "rating": 5,
+            "reviewer": "Alex Johnson"
+        },
+        {
+            "title": "Great film for instant photos",
+            "body": "Fujifilm Instax film works perfectly for my camera. The colors are vibrant, and the photo quality is impressive for an instant film. Highly recommend for memory making.",
+            "rating": 5,
+            "reviewer": "Emily Davis"
+        },
+        {
+            "title": "Great Performance!",
+            "body": "This charger is impressive! It's fast and very convenient for traveling. I highly recommend it if you need a reliable charger.",
+            "rating": 5,
+            "reviewer": "TechSavvy123"
+        },
+        {
+            "title": "Value for Money",
+            "body": "These earphones are a steal at this price! The sound quality is pretty good for casual listening and they fit comfortably in my ears.",
+            "rating": 4,
+            "reviewer": "MusicLover90"
+        },
+        {
+            "title": "Global Selling Experience",
+            "body": "Absolutely loved the ease of selling products internationally. The process is streamlined and user-friendly!",
+            "rating": 5,
+            "reviewer": "John Doe"
+        },
+        {
+            "title": "Affiliate Program Feedback",
+            "body": "Very beneficial program. I've seen great returns on my investment and the resources provided are excellent.",
+            "rating": 4,
+            "reviewer": "Jane Smith"
+        },
+        {
+            "title": "Fulfillment by Amazon",
+            "body": "Fulfillment by Amazon has greatly improved my shipping times and customer satisfaction. Highly recommend!",
+            "rating": 5,
+            "reviewer": "Alice Johnson"
+        },
+        {
+            "title": "Amazon Prime Music",
+            "body": "A fantastic selection of songs and podcasts, but the app can be buggy at times. Overall a good experience.",
+            "rating": 4,
+            "reviewer": "Bob Brown"
+        },
+        {
+            "title": "Shopping on Amazon",
+            "body": "Convenient and reliable service. Never had an issue with returns or customer service!",
+            "rating": 5,
+            "reviewer": "Mark White"
+        }
+    ]
+}
