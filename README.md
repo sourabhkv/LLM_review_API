@@ -90,6 +90,12 @@ This approach ensures efficient data extraction and processing, leveraging Selen
 
 
 
+https://github.com/user-attachments/assets/835c66e8-80db-48aa-a0ca-9ea5f83d62af
+
+
+
+
+
 ## Error Handling
 
 - Returns a 500 HTTP error if an exception occurs during the scraping or processing.
